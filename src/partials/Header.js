@@ -50,14 +50,14 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/features" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Features
+                  Items
                 </Link>
               </li>
               <li>
-                <Link to="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">How it works</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
+                <Link to="/blog" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">News</Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
@@ -106,13 +106,13 @@ function Header() {
             <nav id="mobile-nav" ref={mobileNav} className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 } }>
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
-                  <Link to="/features" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>Features</Link>
+                  <Link to="/features" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>Items</Link>
                 </li>
                 <li>
-                  <Link to="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2">Pricing</Link>
+                  <Link to="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2">How it works</Link>
                 </li>
                 <li>
-                  <Link to="/blog" className="flex text-gray-300 hover:text-gray-200 py-2">Blog</Link>
+                  <Link to="/blog" className="flex text-gray-300 hover:text-gray-200 py-2">News</Link>
                 </li>
                 <li>
                   <Link to="/about" className="flex text-gray-300 hover:text-gray-200 py-2">About us</Link>
