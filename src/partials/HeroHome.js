@@ -30,8 +30,8 @@ function HeroHome() {
             <h1 className="h1 mb-4" data-aos="fade-up">Circular</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Circular is a sharing economy web application that allows you to borrow from and rent your items to other users</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" data-aos="fade-up" data-aos-delay="400">Start free trial</a>
-              <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0" data-aos="fade-up" data-aos-delay="600">Learn more</a>
+              <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="http://circular.launchrock.com/" data-aos="fade-up" data-aos-delay="400">Be a beta tester!</a>
+              <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0" data-aos="fade-up" data-aos-delay="600">Get in touch</a>
             </div>
           </div>
 
